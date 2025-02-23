@@ -1,6 +1,3 @@
-Sure! Below is an expanded **README.md** with more emphasis on the **data processing and transformation** while keeping the Power BI design aspects concise.
-
----
 
 # 🎵 Music Trends Dashboard - Power BI
 
