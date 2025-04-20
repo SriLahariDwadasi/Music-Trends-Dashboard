@@ -14,7 +14,7 @@ The final output is a rich **Power BI dashboard** that allows users to:
 - Explore lyrical sentiment across years
 - Examine artist partnerships and their influence
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Power BI** – interactive dashboard creation
 - **Python (Pandas, Regex, Sentiment Analysis)** – data preprocessing and cleaning
