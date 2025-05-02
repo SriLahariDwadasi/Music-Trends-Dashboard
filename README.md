@@ -4,12 +4,6 @@ An interactive Power BI dashboard analyzing lyrical sentiment, genre trends, and
 
 ---
 
-## 📊 Dashboard Overview
-
-<img src="dashboard/PowerBI dashboard.png" alt="Music Trends Dashboard Preview" width="800"/>
-
----
-
 ## 🔍 Key Features
 
 - **Genre-Level Sentiment Breakdown**  
@@ -25,7 +19,7 @@ An interactive Power BI dashboard analyzing lyrical sentiment, genre trends, and
   Interactive slicers allow users to filter by specific artists or genres (e.g., Johnny Cash, dance pop).
 
 - **Positivity Gauge**  
-  A radial chart showing the percentage of songs with positive sentiment — 68.87% in this dataset.
+  A radial chart showing the percentage of songs with positive sentiment, 68.87% in this dataset.
 
 - **Summary Metrics**  
   KPIs include:
