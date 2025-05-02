@@ -53,7 +53,6 @@ cd Music-Trends-Dashboard
 - Navigate to: `dashboard/Music Trends Dashboard.pbix`
 - Open it using Power BI Desktop
 
-> _Note: No need to install Python or rerun preprocessing unless modifying the data._
 
 ## Usage
 
