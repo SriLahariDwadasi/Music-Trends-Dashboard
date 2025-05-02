@@ -43,3 +43,24 @@ An interactive Power BI dashboard analyzing lyrical sentiment, genre trends, and
    ```bash
    git clone https://github.com/SriLahariDwadasi/Music-Trends-Dashboard.git
    cd Music-Trends-Dashboard
+
+2. Open the Power BI file:
+- Navigate to `dashboard/Music Trends Dashboard.pbix`
+- Open it using Power BI Desktop
+
+---
+
+### 📌 Project Highlights
+
+- Uses NLP-based sentiment scoring to classify **14,287 songs** by emotion.  
+- **Dance Pop** has the highest number of positive songs (~2750).  
+- The dashboard supports **genre and artist-level drill-down** for microanalysis.  
+- Popular artists like **Drake, Eminem, and Taylor Swift** dominate the positive sentiment spectrum.
+
+---
+
+### 🙋 About Me
+
+**Sri Lahari Dwadasi**  
+Master’s in Analytics @ UC Berkeley | Ex-Novartis | Data Science & Optimization Enthusiast  
+📫 [LinkedIn](https://www.linkedin.com/in/sri-lahari-dwadasi) | dwadasi179@gmail.com
