@@ -1,65 +1,140 @@
-# 🎶 Music Trends Dashboard
+# Music Trends Dashboard
 
-An interactive Power BI dashboard analyzing lyrical sentiment, genre trends, and artist popularity across a dataset of 21,000+ songs. This dashboard enables quick exploration of emotional tone across genres, artist impact, and positivity trends in modern music.
+An interactive Power BI project that explores the emotional tone, genre trends, and artist popularity in music by analyzing a dataset of over 21,000 songs. This dashboard leverages sentiment analysis and music metadata to uncover patterns in genre positivity, lyrical sentiment, and artist performance across the industry.
 
----
+## Overview
 
-## 🔍 Key Features
+This project visualizes trends in musical sentiment and genre popularity using a clean, interactive Power BI dashboard. Using sentiment scores derived from song lyrics and enriched metadata on genres and artists, we aim to:
 
-- **Genre-Level Sentiment Breakdown**  
-  View the count of negative, neutral, and positive songs across top genres like dance pop, rock, and funk.
+- **Understand Positivity in Music**: Analyze how sentiment varies across genres.
+- **Track Genre & Artist Trends**: Identify the most positive and popular categories.
+- **Enable Quick Exploration**: Allow dynamic filtering and slicing by artist, genre, and sentiment.
 
-- **Top Artists by Popularity**  
-  Bar chart visualization of the most popular artists in the dataset — including Drake, Taylor Swift, and The Weeknd.
+## Features
 
-- **Sentiment Distribution by Genre**  
-  Line chart showing how sentiment correlates with popularity across genres.
-
-- **Artist & Genre Filters**  
-  Interactive slicers allow users to filter by specific artists or genres (e.g., Johnny Cash, dance pop).
-
-- **Positivity Gauge**  
-  A radial chart showing the percentage of songs with positive sentiment, 68.87% in this dataset.
-
-- **Summary Metrics**  
-  KPIs include:
+- **Summary KPIs**:
   - 541 unique artists  
   - 21,040 total songs  
-  - 95 distinct genres  
+  - 95 distinct genres
 
----
+- **Genre-Level Sentiment Breakdown**  
+  A matrix showing counts of negative, neutral, and positive songs by genre.
 
-## 🧰 Tech Stack
+- **Popularity by Artist**  
+  Bar chart ranking top artists, including Drake, Taylor Swift, and The Weeknd.
 
-- **Power BI** – Interactive data visualization
-- **Python (Pandas, TextBlob)** – Data cleaning and sentiment analysis (performed outside dashboard)
-- **CSV Dataset** – Combined audio features, metadata, and lyrics
+- **Sentiment by Genre Chart**  
+  Line chart correlating sentiment with genre popularity.
 
----
+- **Interactive Filters**  
+  Slicers for artist and genre to dynamically adjust all visuals.
 
-## 🚀 How to Use
+- **Positive Sentiment Gauge**  
+  Radial visualization showing 68.87% of songs in the dataset have positive sentiment.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/SriLahariDwadasi/Music-Trends-Dashboard.git
-   cd Music-Trends-Dashboard
+## Installation & Setup
 
-2. Open the Power BI file:
-- Navigate to `dashboard/Music Trends Dashboard.pbix`
+### Prerequisites
+
+- [Power BI Desktop](https://powerbi.microsoft.com/)
+- Python 3.7+ (for preprocessing and sentiment analysis, not required for dashboard viewing)
+
+### Steps to Set Up the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SriLahariDwadasi/Music-Trends-Dashboard.git
+cd Music-Trends-Dashboard
+```
+
+2. Open the dashboard:
+
+- Navigate to: `dashboard/Music Trends Dashboard.pbix`
 - Open it using Power BI Desktop
 
----
+> _Note: No need to install Python or rerun preprocessing unless modifying the data._
 
-### 📌 Project Highlights
+## Usage
 
-- Uses NLP-based sentiment scoring to classify **14,287 songs** by emotion.  
-- **Dance Pop** has the highest number of positive songs (~2750).  
-- The dashboard supports **genre and artist-level drill-down** for microanalysis.  
-- Popular artists like **Drake, Eminem, and Taylor Swift** dominate the positive sentiment spectrum.
+The dashboard supports both macro and micro exploration of sentiment in music.
 
----
+- **Overview Page**: Get a snapshot of genre and artist metrics.
+- **Drill-Down**: Use slicers to filter by genre (e.g., "dance pop") or artist (e.g., "Johnny Cash").
+- **Gauge Chart**: Evaluate the dataset’s positivity score at a glance.
+- **Visual Trends**: Analyze sentiment evolution and popularity patterns across genres.
 
-### 🙋 About Me
+## Data Files
+
+- `powerbi_dataset_final_with_lyrics.csv`: Final merged dataset with sentiment, genre, artist, and popularity info.
+- `dashboard/Music Trends Dashboard.pbix`: Power BI file for visualization.
+- `notebooks/FinalDataCleaning.ipynb`: Python notebook for preprocessing and sentiment scoring (TextBlob).
+
+## File Structure
+
+```
+Music-Trends-Dashboard/
+├── data/
+│   └── powerbi_dataset_final_with_lyrics.csv
+├── notebooks/
+│   └── FinalDataCleaning.ipynb
+├── dashboard/
+│   ├── Music Trends Dashboard.pbix
+│   └── PowerBI dashboard.png
+├── README.md
+└── .gitignore
+```
+
+## Dependencies
+
+This project is primarily Power BI-based, but the preprocessing phase used the following:
+
+### Python Packages
+
+- `pandas`
+- `textblob`
+- `jupyter`
+
+Install via:
+
+```bash
+pip install pandas textblob jupyter
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch:
+
+```bash
+git checkout -b feature-your-feature
+```
+
+3. Make your changes and commit:
+
+```bash
+git commit -m "Add your feature"
+```
+
+4. Push to your branch:
+
+```bash
+git push origin feature-your-feature
+```
+
+5. Open a Pull Request
+
+
+## Acknowledgments
+
+- **TextBlob** – for sentiment analysis  
+- **Power BI** – for interactive dashboard development  
+- **Spotify & Genius Datasets** – for music metadata and lyrics  
+- **UC Berkeley** – for academic guidance and feedback
+
+##  About Me
 
 **Sri Lahari Dwadasi**  
 Master’s in Analytics @ UC Berkeley | Ex-Novartis | Data Science & Optimization Enthusiast  
